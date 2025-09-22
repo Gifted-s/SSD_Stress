@@ -1,0 +1,24 @@
+# Large test files (50GB+)
+rand_read_file_50GB
+seq_read_file_16GB
+
+# Test files with large sizes
+*_file_*GB
+*_file_*MB
+
+# Temporary test files
+testfile.fio
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log

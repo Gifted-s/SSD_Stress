@@ -1,0 +1,12 @@
+fio --name=rand_write_saturate \
+    --filename=./rand_write.fio \
+    --ioengine=posixaio \
+    --direct=1 \
+    --size=50G \
+    --time_based \
+    --runtime=120 \
+    --group_reporting \
+    --bs=4K \
+    --rw=randwrite \
+    --numjobs=12 \
+    --iodepth=32

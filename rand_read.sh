@@ -1,0 +1,12 @@
+fio --name=max_rand_read \
+    --filename=./testfile.fio \
+    --rw=randread \
+    --bs=4K \
+    --size=50G \
+    --numjobs=15 \
+    --iodepth=120 \
+    --direct=1 \
+    --ioengine=posixaio \
+    --runtime=60 \
+    --time_based \
+    --group_reporting
