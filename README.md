@@ -4,7 +4,7 @@
 This repository contains storage performance test scripts and results for various I/O operations.
 
 ## ⚠️ Warning
-> Don't run these benchmarks too often on your personal machine unless your father manufactures SSDs
+> Don’t run these benchmarks too often on your personal machine—unless your father manufactures SSDs.
 
 
 
