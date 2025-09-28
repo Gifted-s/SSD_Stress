@@ -2,6 +2,9 @@
 # Storage Performance Test Results
 1TB SSD
 
+WARNING ⚠️
+``` Don't run these benchmarks too often on your personal machine unless your father manufactures SSDs
+```
 
 This repository contains storage performance test scripts and results for various I/O operations.
 
